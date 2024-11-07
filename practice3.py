@@ -109,8 +109,8 @@ else:
 #the same above problem can be solve in another way as well which is discussed below.
 ls = list(input("Enter the elements of the list with , :").split(','))
 print(ls)
-copy_list = ls.copy()
-copy_list.reverse()
+copy_list = ls.copy() #it creates a copy of original list and changes made in the new list does not reflect in original list.
+copy_list.reverse() #it reverses the original list. it does not return new list and changes made in it reflect in the original list.
 print(copy_list)
 if (ls == copy_list):
     print("The list contains a palindrome of elements.")
