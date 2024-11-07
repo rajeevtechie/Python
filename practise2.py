@@ -17,8 +17,8 @@ print(len(st)) #spaces are also counted along with special characters and digits
 s = "rajeev gupta"
 print(s[2]) 
 print(s[6]) #we can access a particular string using index but cannot edit a particular value using indexing . for eg.
-s[3] = d #here i am trying to edit the digit in index 3 with d
-print(s) #it shows error
+# s[3] = d #here i am trying to edit the digit in index 3 with d
+# print(s) #it shows error
 
 #slicing: accessing part of a string
 k = "rajeev kumar gupta"
