@@ -100,3 +100,51 @@ def type_number():
         print("ODD")
 
 type_number()
+
+#Recursion: function calls itself repeatedly.
+def print_num(n):
+    if n == 0:
+        return
+    print(n)
+    print_num(n-1)
+
+print_num(7)
+
+def give(n):
+    if n == 0:
+        return
+    print(n)
+    give(n-1)
+    print("End")
+
+give(7)
+
+def fact(n):
+    if (n ==0 or n==1):
+        return 1
+    else:
+        return n*fact(n-1)
+
+print(fact(5))
+
+#Qn.7: Write a recursive function to calculate the sum of first n natural numbers.
+sum1 = 0
+def sum(n):
+    if (n==0):
+        return 0
+    else:
+        return sum(n-1) + n
+
+print(sum(5))
+
+#Qn.3: Write a recursive function to print all elements in a list.
+brands = ["hp", "asus", "acer", "samsung", "mi"]
+def elements(list,index):
+    if index == len(list):
+        return 
+    else:
+        print(list[index])
+        elements(list,index+1)
+        
+
+elements(brands,0)
