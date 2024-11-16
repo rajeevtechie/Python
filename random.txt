@@ -1,0 +1,1 @@
+This is a random file created while learning file I/O in the python.
