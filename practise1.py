@@ -2,7 +2,7 @@
 name = "Rajeev Gupta"
 age = 20
 study = 'B. Tech (Running)'
-activity = '''Learning Python'''
+activity = '''Learning Python(securing the future)'''
 hobby = "Playing Cricket"
 medals = 1.00
 POTM = False
