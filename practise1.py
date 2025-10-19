@@ -1,7 +1,7 @@
 #exploring varaibles in python
 name = "Rajeev Gupta"
 age = 20
-study = 'B. Tech (Running)'
+study = 'B. Tech (Running & will be completed by 2028)'
 activity = '''Learning Python(securing the future)'''
 hobby = "Playing Cricket"
 medals = 1.00
